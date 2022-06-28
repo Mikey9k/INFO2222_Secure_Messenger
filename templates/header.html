@@ -1,0 +1,38 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="css/temp.css">
+  <script src="js/script_head.js"></script>
+  
+  <title>Simple Student Templating Solutions</title>
+</head>
+  
+<p>
+  <ul class="navbar" id="navbar">
+    <li class="navbar_btn" id="homeNavBtn" onclick="setActiveNavBtn('home')">
+      <a href="/home">Home</a>
+    </li>
+    <li class="navbar_btn" id="loginNavBtn" onclick="setActiveNavBtn('login')">
+      <a href="/login">Login</a>
+    </li>
+    <li class="navbar_btn" id="messageNavBtn" onclick="setActiveNavBtn('message')">
+      <a href="/message">Message</a>
+    </li>
+    <li class="navbar_btn" id="adminNavBtn" onclick="setActiveNavBtn('admin')">
+      <a href="/admin">Admin</a>
+    </li>
+    <li class="navbar_btn" id="logoutNavBtn">
+      <a href="/logout">Logout</a>
+    </li>
+    <li class="navbar_btn" id="helpNavBtn" onclick="setActiveNavBtn('help')">
+      <a href="/help">Help</a>
+    </li>
+    <li class="navbar_btn" id="aboutNavBtn" onclick="setActiveNavBtn('about')">
+      <a href="/about">About</a>
+    </li>
+    <li class="navbar_btn" id="toggleLightDarkModeBtn" onclick="toggleDarkMode()">
+      <a><img class="toggleDarkModeImg"></a>
+    </li>
+    <li class="navbar_btn" id="toggleFontSizeBtn" onclick="toggleTextMode()">
+      <a><img class="enlargeTextImg"></a>
+    </li>
+  </ul>
+<p>

@@ -1,0 +1,36 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+
+<body>
+
+    <div class="container" id="register_form">
+        <center>
+            <h1>Register</h1>
+
+            <p id="register_fail_reason"></p>
+        </center>
+        <hr>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" id="username" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" id="password" required>
+
+        <label for="pwd_confirm"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" id="pwd_confirm" required>
+        <hr>
+
+        <button class="registerButton" onclick="registerUser()" id="register_button">
+            Register
+        </button>
+    </div>
+
+    <div class="signin">
+        <p>Already have an account? <a href="/login">Sign in</a></p>
+    </div>
+
+</body>
+
+<script src="js/register.js"></script>
